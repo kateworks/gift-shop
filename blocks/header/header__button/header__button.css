@@ -1,0 +1,16 @@
+
+.header__button {
+  font-family: Gilroy, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+
+  border: 1px solid #F7941E;
+  border-radius: 5px;
+
+  padding: 13px 24px;
+  margin: 0;
+  margin-right: 40px;
+}

@@ -1,0 +1,15 @@
+
+.header__logo {
+  font-family: 'Homemade Apple', 'Segoe Script', Arial, sans-serif;
+  color: #231F20;
+  font-size: 18px;
+  line-height: 39px;
+  text-align: center;
+
+  width: 41px;
+  height: 39px;
+
+  padding: 0;
+  margin: 0;
+  margin-left: 80px;
+}
