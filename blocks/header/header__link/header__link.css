@@ -7,5 +7,5 @@
 }
 
 .header__link:hover {
-  text-decoration: underline;
+  border-bottom: 1px dotted #000;
 }

@@ -8,3 +8,9 @@
 .header__row-item:last-of-type {
   margin-right: 0;
 }
+
+@media screen and (max-width: 375px) {
+  .header__row-item {
+    margin: 5px 0;
+  }
+}

@@ -2,12 +2,19 @@
 .header__row-links {
   list-style-type: none;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-items: center;
   justify-content: space-between;
 
-  height: 22px;
+  box-sizing: border-box;
+  min-height: 22px;
   padding: 0;
   margin: 0;
-  border: 1px solid red;
+}
+
+@media screen and (max-width: 375px) {
+  .header__row-links {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
 }

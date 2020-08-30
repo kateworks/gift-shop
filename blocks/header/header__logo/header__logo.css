@@ -13,8 +13,8 @@
   height: 39px;
 
   padding: 0;
-  margin: 0;
-  margin-left: 80px;
+  margin: 10px 0 10px 80px;
+  transition: .7s ease-in-out;
 }
 
 @media screen and (max-width: 780px) {
