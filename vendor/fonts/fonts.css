@@ -1,0 +1,12 @@
+
+@font-face {
+  src: url('./HomemadeApple-Regular.ttf') format('truetype');
+  font-family: 'Homemade Apple';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('./Roboto-Regular.ttf') format('truetype');
+  font-family: 'Roboto';
+  font-weight: 400;
+}
