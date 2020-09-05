@@ -18,11 +18,12 @@
 
   padding: 0;
   margin: 10px 34px 10px 0;
+  transition: .7s ease-in-out;
 }
 
 .header__button:hover {
   cursor: pointer;
-  box-shadow: 1px 1px 3px #f7941e;
+  opacity: .7;
 }
 
 @media screen and (max-width: 780px) {

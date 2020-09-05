@@ -1,9 +1,15 @@
 @import url(./__row/intro__row.css);
 @import url(./__header/intro__header.css);
+@import url(./__subheader/intro__subheader.css);
+
 @import url(./__title/intro__title.css);
+@import url(./__subtitle/intro__subtitle.css);
 @import url(./__text/intro__text.css);
+@import url(./__text/_type/intro__text_type_justified.css);
+
 @import url(./__btn/intro__btn.css);
 @import url(./__btn/_action/intro__btn_action_find.css);
+@import url(./__btn/_action/intro__btn_action_learn.css);
 @import url(./__image/intro__image.css);
 
 .intro {

@@ -1,0 +1,12 @@
+
+.intro__subheader {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  max-height: 600px;
+  min-height: 310px;
+  padding: 164px 166px 104px 112px;
+  margin: 0;
+}
