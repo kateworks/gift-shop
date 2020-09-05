@@ -2,9 +2,11 @@
 .intro__header {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
 
-  padding: 0;
+  box-sizing: border-box;
+  max-height: 700px;
+  min-height: 310px;
+  padding: 154px 126px 135px 162px;
   margin: 0;
 }

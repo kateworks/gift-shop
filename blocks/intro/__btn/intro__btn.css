@@ -1,0 +1,24 @@
+
+.intro__btn {
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+
+  box-sizing: border-box;
+  width: 200px;
+  height: 60px;
+
+  outline: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 5px;
+
+  padding: 0;
+  margin: 0;
+  transition: .7s ease-in-out;
+}
+
+.intro__btn:hover {
+  cursor: pointer;
+  opacity: .7;
+}
