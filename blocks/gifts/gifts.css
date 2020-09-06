@@ -1,0 +1,11 @@
+@import url(./__title/gifts__title.css);
+@import url(./__subtitle/gifts__subtitle.css);
+
+.gifts {
+  color: #000;
+  box-sizing: border-box;
+  min-height: 820px;
+
+  padding: 96px 135px 87px 135px;
+  margin: 0;
+}

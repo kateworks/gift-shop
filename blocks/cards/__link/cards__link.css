@@ -1,0 +1,23 @@
+
+.cards__link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 19px;
+  text-align: left;
+
+  box-sizing: inherit;
+  padding: 0;
+  padding-left: 24px;
+  padding-bottom: 24px;
+  margin: 0;
+  transition: font-size .5s linear;
+}
+
+.cards__link:hover {
+  cursor: pointer;
+  font-size: 15px;
+}
