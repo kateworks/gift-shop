@@ -1,0 +1,10 @@
+
+.sign-up__title {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 45px;
+
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
