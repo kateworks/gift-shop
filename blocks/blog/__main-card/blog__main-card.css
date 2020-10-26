@@ -1,0 +1,11 @@
+
+.blog__main-card {
+  background-color: #231F20;
+  display: flex;
+  flex-flow: row wrap;
+
+  box-sizing: inherit;
+  width: 100%;
+  padding: 0;
+  margin: 71px 0 40px 0;
+}

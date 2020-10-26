@@ -1,0 +1,17 @@
+@import url(./__article/articles__article.css);
+@import url(./__title/articles__title.css);
+@import url(./__text/articles__text.css);
+@import url(./__link/articles__link.css);
+
+.articles {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,8 @@
+
+.blog__image {
+  box-sizing: inherit;
+  max-width: 400px;
+  min-width: 320px;
+  padding: 0;
+  margin: 0;
+}

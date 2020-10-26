@@ -1,8 +1,6 @@
-@import url(./__title/gifts__title.css);
-@import url(./__subtitle/gifts__subtitle.css);
+@import url(../gifts/__header/gifts__header.css);
 
 .gifts {
-  color: #000;
   box-sizing: border-box;
   min-height: 820px;
 

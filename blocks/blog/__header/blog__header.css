@@ -1,0 +1,9 @@
+
+.blog__header {
+  color: #fff;
+  flex-grow: 1;
+
+  box-sizing: inherit;
+  padding: 63px 0 0 78px;
+  margin: 0;
+}

@@ -1,0 +1,15 @@
+@import url(./__main-card/blog__main-card.css);
+@import url(./__image/blog__image.css);
+@import url(./__header/blog__header.css);
+@import url(./__author/blog__author.css);
+@import url(./__title/blog__title.css);
+@import url(./__link/blog__link.css);
+
+.blog {
+  background-color: #fff;
+
+  box-sizing: border-box;
+  width: 100%;
+  padding: 88px 135px 80px 135px;
+  margin: 0;
+}

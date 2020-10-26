@@ -1,11 +1,10 @@
 
-.gifts__subtitle {
+.section-subtitle {
   font-size: 18px;
   line-height: 24px;
   text-align: center;
   color: inherit;
 
   padding: 0;
-  padding-bottom: 64px;
   margin: 0;
 }

@@ -1,0 +1,22 @@
+
+.articles__article {
+  color: #000;
+  flex-basis: 570px;
+  flex-grow: 1;
+
+  box-sizing: inherit;
+  padding: 48px;
+  margin: 0;
+  transition: .5s ease-in-out;
+}
+
+.articles__article:hover {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, .05);
+}
+
+@media screen and (max-width: 1410px) {
+  .articles__article {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}

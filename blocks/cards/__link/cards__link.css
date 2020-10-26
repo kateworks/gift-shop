@@ -14,10 +14,8 @@
   padding-left: 24px;
   padding-bottom: 24px;
   margin: 0;
-  transition: font-size .5s linear;
 }
 
 .cards__link:hover {
   cursor: pointer;
-  font-size: 15px;
 }

@@ -1,0 +1,13 @@
+
+.blog__title {
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 58px;
+
+  box-sizing: inherit;
+  max-width: 492px;
+  min-width: 310px;
+  padding: 0;
+  padding-bottom: 60px;
+  margin: 0;
+}

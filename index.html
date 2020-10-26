@@ -14,16 +14,24 @@
       <nav>
         <ul class="header__row-links">
           <li class="header__row-item">
-            <a href="#" class="header__link" title="Home">Home</a>
+            <a href="#" class="header__link fading" title="Home">
+              Home
+            </a>
           </li>
           <li class="header__row-item">
-            <a href="#" class="header__link" title="About Us">About Us</a>
+            <a href="#" class="header__link fading" title="About Us">
+              About Us
+            </a>
           </li>
           <li class="header__row-item">
-            <a href="#" class="header__link" title="Services">Services</a>
+            <a href="#" class="header__link fading" title="Services">
+              Services
+            </a>
           </li>
           <li class="header__row-item">
-            <a href="#" class="header__link" title="Blogs">Blogs</a>
+            <a href="#" class="header__link fading" title="Blogs">
+              Blogs
+            </a>
           </li>
         </ul>
       </nav>
@@ -31,7 +39,7 @@
     </header>
 
     <main class="content">
-
+<!-- 
       <section class="intro">  
         <div class="intro__row">
           <div class="intro__header">
@@ -67,49 +75,51 @@
           </div>
         </div>
       </section>
-
+-->
+ 
       <section class="gifts">
-        <h2 class="gifts__title">
-          Gifts for all Occasions
-        </h2>
-        <p class="gifts__subtitle">
-          “Try our web app to find the best gifts for all occasions”
-        </p>
+        <header class="gifts__header">
+          <h2 class="section-title">
+            Gifts for all Occasions
+          </h2>
+          <p class="section-subtitle">
+            “Try our web app to find the best gifts for all occasions”
+          </p>
+        </header>
 
         <ul class="cards">
           <li class="cards__item">
             <img src="./images/cards-birthday.png" 
                 alt="Birthday" class="cards__image">
             <h3 class="cards__title">Birthday</h3>
-            <a href="#" class="cards__link">See More ></a>
+            <a href="#" class="cards__link fading">See More ></a>
           </li>
 
           <li class="cards__item">
             <img src="./images/cards-anniversary.png" 
                 alt="Anniversary" class="cards__image">
             <h3 class="cards__title">Anniversary</h3>
-            <a href="#" class="cards__link">See More ></a>
+            <a href="#" class="cards__link fading">See More ></a>
           </li>
 
           <li class="cards__item">
             <img src="./images/cards-valentine.png" 
                 alt="Valentine's Day" class="cards__image">
             <h3 class="cards__title">Valentine's Day</h3>
-            <a href="#" class="cards__link">See More ></a>
+            <a href="#" class="cards__link fading">See More ></a>
           </li>
 
           <li class="cards__item">
             <img src="./images/cards-christmas.png" 
                 alt="Christmas" class="cards__image">
             <h3 class="cards__title">Christmas</h3>
-            <a href="#" class="cards__link">See More ></a>
+            <a href="#" class="cards__link fading">See More ></a>
           </li>
         </ul>
       </section>
-
+ 
       <!-- Sign up section -->
-      <section class="sign-up">
-
+      <!-- <section class="sign-up">
         <header class="sign-up__header">
           <h2 class="sign-up__title">Ready to get started?</h2>
           <p class="sign-up__subtitle">Sign up or contact us</p>
@@ -119,8 +129,65 @@
           <button class="sign-up__btn">Find gift now</button>
           <button class="sign-up__btn">How it works</button>
         </div>
-      </section>
+      </section> -->
 
+      <!-- Blog section -->
+      <section class="blog">
+        <h2 class="section-title">
+          Our Best Blogs Ever
+        </h2>
+        <p class="section-subtitle">
+          “Try our blog to find the best tips and tricks to select your gift”
+        </p>
+
+        <div class="blog__main-card">
+          <img 
+            class="blog__image"
+            src="./images/blog-image1.png" 
+            title="A picture of a happy pair"
+            alt="A picture of a happy pair" 
+          >
+
+          <div class="blog__header">
+            <p class="blog__author">Mr. John Doe</p>
+            <h3 class="blog__title">
+              The best way to wish your wife
+            </h3>
+            <a href="#" class="blog__link fading" title="Read the article">
+              Read More
+            </a>
+          </div>
+        </div>
+
+        <ul class="articles">
+
+          <li class="articles__article">
+            <h3 class="articles__title">
+              Database to find the gifts for your girlfriend
+            </h3>
+            <p class="articles__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore...
+            </p>
+            <a href="#" class="articles__link fading" title="Read the article">
+              Read More
+            </a>
+          </li>
+
+          <li class="articles__article">
+            <h3 class="articles__title">
+              How Artificial Intelligence read your mind to&nbspfind the best gift
+            </h3>
+            <p class="articles__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore...
+            </p>
+            <a href="#" class="articles__link fading" title="Read the article">
+              Read More
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer class="footer">
