@@ -1,0 +1,17 @@
+
+@import url(./__row-links/footer__row-links.css);
+@import url(./__row-link/footer__row-link.css);
+@import url(./__text-link/footer__text-link.css);
+@import url(./__social-links/footer__social-links.css);
+@import url(./__social-link/footer__social-link.css);
+@import url(./__link/footer__link.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__copyright-text/footer__copyright-text.css);
+
+.footer {
+  background-color: #fafafa;
+
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}

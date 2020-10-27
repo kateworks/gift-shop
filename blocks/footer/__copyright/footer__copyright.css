@@ -1,0 +1,11 @@
+
+.footer__copyright {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+
+  box-sizing: border-box;
+  padding: 0;
+  padding-bottom: 35px;
+  margin: 0;
+}

@@ -1,0 +1,15 @@
+
+.footer__copyright-text {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+  margin-right: 14px;
+}
+
+.footer__copyright-text:last-of-type {
+  margin-right: 0;
+}
