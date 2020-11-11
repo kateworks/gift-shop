@@ -8,7 +8,7 @@ while studying web development at [Yandex.Practicum](https://praktikum.yandex.ru
 ## Demo
 
 * [Demo page](https://kateworks.github.io/gift-shop)
-* [Initial Design Page](https://dribbble.com/shots/7687874-Gift-Shop-Website-Template-Figma-Freebie)
+* [Design](https://dribbble.com/shots/7687874-Gift-Shop-Website-Template-Figma-Freebie)
 
 
 ## Getting Started
@@ -19,17 +19,18 @@ To get the copy of the project you can fork the repository or download zip archi
 ## Built with
 
 * HTML5 - used some semantic elements to define different parts of a web page 
-  (header, section, footer).
+  (header, navigation bar, sections, footer).
 * CSS3 - used flexbox for creating fluid grid and transitions to change property values smoothly.
 * [BEM](https://en.bem.info/methodology/quick-start/) - utilized a component-based approach 
   to web development. 
+* Used [Normalize.css](https://necolas.github.io/normalize.css/) for better cross-browser 
+  consistency in the default styling of HTML elements.
 
 
 ## Authors
 
-* Mohammad Ali - 
-  [Initial Design](https://dribbble.com/shots/7687874-Gift-Shop-Website-Template-Figma-Freebie)
-* Ekaterina Pozhidaeva - created web page.
+* Ekaterina Pozhidaeva - created web page
+* Mohammad Ali - [Design](https://dribbble.com/shots/7687874-Gift-Shop-Website-Template-Figma-Freebie)
 
 
 ## TODO
