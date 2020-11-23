@@ -3,10 +3,25 @@
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
+  align-items: flex-start;
 
-  box-sizing: border-box;
-  max-height: 600px;
-  min-height: 310px;
-  padding: 164px 166px 104px 112px;
-  margin: 0;
+  box-sizing: content-box;
+  width: 61.3%;
+  max-width: 441px;
+  height: 55.3%;
+  max-height: 332px;
+
+  padding: 0;
+  padding-top: 60px;
+  padding-right: 54px;
+  margin: auto;
+}
+
+@media screen and (max-width: 750px) {
+  .intro__subheader {
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    padding: 0;
+  }
 }
