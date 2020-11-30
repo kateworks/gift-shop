@@ -2,8 +2,25 @@
 
 .gifts {
   box-sizing: border-box;
+  width: 90%;
+  max-width: 1170px;
   min-height: 820px;
+  padding: 0;
+  padding-top: 96px;
+  padding-bottom: 137px;
+  margin: 0 auto;
+}
 
-  padding: 96px 135px 87px 135px;
-  margin: 0;
+@media screen and (max-width: 850px) {
+  .gifts {
+    padding-top: 46px;
+    padding-bottom: 67px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gifts {
+    padding-top: 26px;
+    padding-bottom: 37px;
+  }
 }

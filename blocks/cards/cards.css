@@ -7,9 +7,16 @@
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  grid-column-gap: 30px;
+  gap: 30px;
+  justify-items: center;
 
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+@media screen and (max-width: 750px) {
+  .cards {
+    gap: 16px;
+  }
 }

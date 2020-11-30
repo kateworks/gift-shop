@@ -4,12 +4,12 @@
   background-color: #fafafa;
 
   box-sizing: inherit;
-  width: 270px;
-  height: 436px;
+  width: auto;
+  height: 100vh; 
+  max-height: 436px;
 
   padding: 0;
   margin: 0;
-  margin-bottom: 50px;
   transition: .5s ease-in-out;
 }
 
@@ -17,3 +17,6 @@
   background-color: #fff;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, .05);
 }
+
+
+

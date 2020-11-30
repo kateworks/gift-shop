@@ -9,3 +9,9 @@
   padding-bottom: 74px;
   margin: 0;
 }
+
+@media screen and (max-height: 430px) {
+  .cards__title {
+    padding-bottom: 16px;
+  }
+}

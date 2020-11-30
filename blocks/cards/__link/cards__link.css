@@ -19,3 +19,9 @@
 .cards__link:hover {
   cursor: pointer;
 }
+
+@media screen and (max-height: 430px) {
+  .cards__link {
+    padding-bottom: 16px;
+  }
+}
