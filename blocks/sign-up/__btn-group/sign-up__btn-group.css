@@ -1,9 +1,0 @@
-
-.sign-up__btn-group {
-  display: flex;
-  flex-flow: row wrap;
-
-  box-sizing: inherit;
-  padding: 0;
-  margin: 0;
-}

@@ -1,0 +1,14 @@
+
+.sign-up__buttons {
+  display: flex;
+  flex-flow: row nowrap;
+
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 520px) {
+  .sign-up__buttons {
+    flex-flow: column nowrap;
+  }
+}

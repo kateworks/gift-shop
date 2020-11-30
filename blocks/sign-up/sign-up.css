@@ -1,18 +1,33 @@
 @import url(./__header/sign-up__header.css);
 @import url(./__title/sign-up__title.css);
-@import url(./__subtitle/sign-up__subtitle.css);
+@import url(./__title/_bold/sign-up__title_bold.css);
+@import url(./__buttons/sign-up__buttons.css);
 @import url(./__btn/sign-up__btn.css);
 
 .sign-up {
   background-color: #F7941E;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
 
   box-sizing: border-box;
   width: 100%;
   min-height: 240px;
-  padding: 0 235px 0 235px;
+  padding: 0 calc((100% - 970px) / 2);
   margin: 0;
+}
+
+@media screen and (max-width: 1030px) {
+  .sign-up {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .sign-up {
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    text-align: center;
+  }
 }
