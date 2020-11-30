@@ -33,12 +33,5 @@ To get the copy of the project you can fork the repository or download zip archi
 * Mohammad Ali - [Design](https://dribbble.com/shots/7687874-Gift-Shop-Website-Template-Figma-Freebie)
 
 
-## TODO
-
-* Header - change buttons stype
-* Intro - buttons, paddings
-* Implement responsive UI.
-* Add links to design and repo.
-* Validate page.
 
 

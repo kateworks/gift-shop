@@ -23,7 +23,8 @@
 
 .header__button:hover {
   cursor: pointer;
-  opacity: .7;
+  color: #fff;
+  background-color: #F7941E;
 }
 
 @media screen and (max-width: 780px) {

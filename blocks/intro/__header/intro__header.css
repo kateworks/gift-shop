@@ -8,7 +8,7 @@
   box-sizing: content-box;
   width: 60%;
   max-width: 433px;
-  height: 70%;
+  height: 75%;
   max-height: 411px;
 
   padding: 0;
@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 620px) {
   .intro__header {
     width: 80%;
     align-items: center;
