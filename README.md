@@ -2,7 +2,7 @@
 # Gift Shop Website Template
 
 "Gift Store Website Template" is a one-page website, created as an optional task
-while studying web development at [Yandex.Practicum](https://praktikum.yandex.ru/).
+while studying web development at [Yandex.Practikum](https://praktikum.yandex.ru/).
 
 
 ## Demo
