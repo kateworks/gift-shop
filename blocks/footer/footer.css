@@ -12,6 +12,21 @@
   background-color: #fafafa;
 
   box-sizing: border-box;
-  padding: 0;
+  width: 100%;
+  padding: 0 220px 0 220px;
   margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
 }

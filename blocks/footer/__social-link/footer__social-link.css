@@ -12,3 +12,13 @@
 .footer__social-link:last-of-type {
   padding-right: 0;
 }
+
+@media screen and (max-width: 375px) {
+  .footer__social-link {
+    padding-right: 12px;
+  }
+
+  .footer__social-link:last-of-type {
+    padding-right: 0;
+  }
+}

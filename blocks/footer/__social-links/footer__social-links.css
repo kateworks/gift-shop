@@ -11,3 +11,10 @@
   padding-bottom: 72px;
   margin: 0;
 }
+
+@media screen and (max-width: 650px) {
+  .footer__social-links {
+    padding-top: 23px;
+    padding-bottom: 36px;
+  }
+}

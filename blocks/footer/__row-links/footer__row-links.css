@@ -11,3 +11,10 @@
   padding: 106px 0 43px 0;
   margin: 0;
 }
+
+@media screen and (max-width: 650px) {
+  .footer__row-links {
+    padding-top: 53px;
+    padding-bottom: 23px;
+  }
+}
