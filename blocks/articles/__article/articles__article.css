@@ -1,22 +1,30 @@
 
 .articles__article {
   color: #000;
-  flex-basis: 570px;
-  flex-grow: 1;
 
   box-sizing: inherit;
+  width: calc(50% - 15px);
+  min-height: 290px;
+  max-height: 100vh;
   padding: 48px;
   margin: 0;
-  transition: .5s ease-in-out;
+  outline: 1px solid violet;
 }
 
 .articles__article:hover {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, .05);
 }
 
-@media screen and (max-width: 1410px) {
+@media screen and (max-width: 1024px) {
   .articles__article {
-    max-width: 90%;
+    width: 90%;
+    padding: 28px;
     margin: 0 auto;
   }
+}
+
+@media screen and (max-width: 425px) {
+    .articles__article {
+      padding: 18px;
+    }
 }
