@@ -5,8 +5,9 @@
 
   box-sizing: inherit;
   width: auto;
-  height: 100vh; 
-  max-height: 436px;
+  height: 436px;
+  min-height: 300px;
+  max-height: 100vh;
 
   padding: 0;
   margin: 0;
