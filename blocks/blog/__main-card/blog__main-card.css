@@ -2,10 +2,25 @@
 .blog__main-card {
   background-color: #231F20;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
 
-  box-sizing: inherit;
+  box-sizing: border-box;
   width: 100%;
+  max-width: 1170px;
+
   padding: 0;
   margin: 71px 0 40px 0;
+}
+
+@media screen and (max-width: 850px) {
+  .blog__main-card {
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .blog__main-card {
+    flex-flow: column nowrap;
+  }
 }

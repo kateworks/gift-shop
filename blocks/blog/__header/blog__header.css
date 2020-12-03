@@ -3,7 +3,26 @@
   color: #fff;
   flex-grow: 1;
 
-  box-sizing: inherit;
-  padding: 63px 0 0 78px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  max-width: 770px;
+  min-height: 270px;
+  max-height: 100vh;
+  padding: 63px 0 49px 78px;
   margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .blog__header {
+    padding-left: 6.5%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .blog__header {
+    width: 100%;
+  }
 }

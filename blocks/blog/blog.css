@@ -9,7 +9,26 @@
   background-color: #fff;
 
   box-sizing: border-box;
-  width: 100%;
-  padding: 88px 135px 80px 135px;
-  margin: 0;
+  width: 90%;
+  max-width: 1170px;
+
+  padding: 0;
+  padding-top: 88px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+@media screen and (max-width: 850px) {
+  .blog {
+    padding-top: 48px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .blog {
+    padding-top: 28px;
+    padding-bottom: 20px;
+  }
 }

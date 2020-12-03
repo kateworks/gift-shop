@@ -4,10 +4,31 @@
   font-weight: normal;
   line-height: 58px;
 
-  box-sizing: inherit;
+  box-sizing: border-box;
+  width: 90%;
   max-width: 492px;
-  min-width: 310px;
   padding: 0;
-  padding-bottom: 60px;
   margin: 0;
+  margin-bottom: auto;
 }
+
+@media screen and (max-width: 1150px) {
+  .blog__title {
+    font-size: 38px;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .blog__title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .blog__title {
+    font-size: 26px;
+  }
+}
+
+
